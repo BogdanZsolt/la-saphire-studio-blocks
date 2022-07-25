@@ -1,0 +1,1 @@
+{"version":3,"file":"studio-list/style-index.css","mappings":";;;AACC;EACC;AAAF,C","sources":["webpack://la-saphire-studio-blocks/./src/studio-list/style.scss"],"sourcesContent":[".wp-block-post {\n\t&.ls-courses {\n\t\tlist-style: none;\n\t}\n}"],"names":[],"sourceRoot":""}

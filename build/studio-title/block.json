@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ls/studio-title",
+  "version": "0.1.0",
+  "title": "LS Studio Title",
+  "category": "la-saphire",
+  "description": "LS Studio Title Display.",
+  "parent": [
+    "ls/studio-list"
+  ],
+  "attributes": {
+    "textAlign": {
+      "type": "string",
+      "default": "left"
+    },
+    "level": {
+      "type": "number",
+      "default": 5
+    },
+    "isLink": {
+      "type": "boolean",
+      "default": false
+    },
+    "linkTarget": {
+      "type": "string",
+      "default": "_self"
+    },
+    "rel": {
+      "type": "string",
+      "attribute": "rel",
+      "default": ""
+    }
+  },
+  "usesContext": [
+    "postId",
+    "postType"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ls-studio-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

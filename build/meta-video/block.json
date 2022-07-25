@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ls/meta-video",
+  "version": "0.1.0",
+  "title": "LS Studio Meta Video",
+  "category": "la-saphire",
+  "description": "LS Studio MetaBox input Feild.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ls-studio-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ls/studio-list",
+  "version": "0.1.0",
+  "title": "La Saphire Studio List",
+  "category": "la-saphire",
+  "description": "Example static block scaffolded with Create Block tool.",
+  "attributes": {
+    "postId": {
+      "type": "number"
+    },
+    "postType": {
+      "type": "string",
+      "default": "ls-courses"
+    },
+    "perPage": {
+      "type": "number",
+      "default": -1
+    },
+    "order": {
+      "type": "string",
+      "default": "asc"
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "title"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "displayLayout": {
+      "type": "string",
+      "default": "list"
+    }
+  },
+  "providesContext": {
+    "postId": "postId",
+    "postType": "postType"
+  },
+  "supports": {
+    "reusable": false,
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "ls-studio-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
