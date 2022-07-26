@@ -1,1 +1,0 @@
-{"version":3,"file":"studio-list/index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://la-saphire-studio-blocks/./src/studio-list/editor.scss"],"sourcesContent":[".ls-studio-list__wrapper{\n\tlist-style: none;\n}\n"],"names":[],"sourceRoot":""}

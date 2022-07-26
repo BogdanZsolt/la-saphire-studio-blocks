@@ -125,6 +125,9 @@ if(!class_exists( 'LS_Studio_Blocks' ) ){
 			);
 		}
 
+		public function ls_studio_featured_image_render($attributes, $content, $block){
+		}
+
 		public function create_block_la_saphire_studio_blocks_block_init() {
 
 			register_block_type_from_metadata( __DIR__ . '/build/meta-video' );
@@ -134,6 +137,9 @@ if(!class_exists( 'LS_Studio_Blocks' ) ){
 			) );
 			register_block_type_from_metadata( __DIR__ . '/build/studio-title', array(
 				'render_callback' => array( $this, 'ls_studio_title_render' ),
+			) );
+			register_block_type_from_metadata( __DIR__ . '/build/studio-featured-image', array(
+				'render_callback'	=> array($this, 'ls_studio_featured_image_render'),
 			) );
 		}
 	}

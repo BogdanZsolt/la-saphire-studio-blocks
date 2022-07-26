@@ -1,1 +1,0 @@
-{"version":3,"file":"meta-video/index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://la-saphire-studio-blocks/./src/meta-video/editor.scss"],"sourcesContent":[".wp-block-create-block-kc-course-blocks {\n\tborder: 1px dotted #f00;\n}\n"],"names":[],"sourceRoot":""}

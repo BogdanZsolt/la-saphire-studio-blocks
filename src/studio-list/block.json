@@ -7,9 +7,6 @@
 	"category": "la-saphire",
 	"description": "Example static block scaffolded with Create Block tool.",
 	"attributes": {
-		"postId": {
-			"type": "number"
-		},
 		"postType": {
 			"type": "string",
 			"default": "ls-courses"
@@ -38,7 +35,6 @@
 		}
 	},
 	"providesContext": {
-		"postId": "postId",
 		"postType": "postType"
 	},
 	"supports": {
